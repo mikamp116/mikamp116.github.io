@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on Content &gt; style</title>
+		<link>http://localhost:36563/tags/</link>
+		<description>Recent content in Tags on Content &gt; style</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:36563/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Markdown</title>
+				<link>http://localhost:36563/blog/markdown/</link>
+				<pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>http://localhost:36563/blog/markdown/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Syntax</title>
+				<link>http://localhost:36563/blog/syntax/</link>
+				<pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>http://localhost:36563/blog/syntax/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

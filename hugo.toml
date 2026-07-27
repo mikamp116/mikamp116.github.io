@@ -1,0 +1,27 @@
+baseURL = 'https://example.org'
+locale = 'en-us'
+title = 'Content > style'
+theme = 'hugo-bearblog'
+
+enableRobotsTXT = true
+
+[params]
+  enablePostNavigator = true
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
