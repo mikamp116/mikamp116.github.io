@@ -1,6 +1,6 @@
 baseURL = 'https://example.org'
 locale = 'en-us'
-title = 'Content > style.'
+title = 'Content > style'
 theme = 'hugo-bearblog'
 
 enableRobotsTXT = true
