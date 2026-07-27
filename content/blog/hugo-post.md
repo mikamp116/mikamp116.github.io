@@ -26,11 +26,11 @@ git --version
 If the command is not found, [install it](https://git-scm.com/install/linux).
 
 I am using Debian, so I'll do:
-~~~
+```
 apt-get install git
 add-apt-repository ppa:git-core/ppa
 apt update; apt install git
-~~~
+```
 
 ## Install Hugo
 Verify if it is installed:
