@@ -1,7 +1,7 @@
 baseURL = 'https://example.org'
 locale = 'en-us'
 title = 'Content > style.'
-theme = 'hugo-bearblog'
+theme = 'hextra'
 
 enableRobotsTXT = true
 
