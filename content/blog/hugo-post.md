@@ -1,52 +1,46 @@
 +++
 title = "Hugo from zero to hero"
 date = "2026-07-27T22:33:44+02:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = ["markdown","syntax",]
+description = "Bulding and deploying a personal Hugo blog."
+tags = ["hugo","blogging","hugo-themes","hextra",]
 +++
 
-This is the meta-post, it's about how to build your own blog in a Linux machine, and for that we will use [Hugo](https://gohugo.io/). 
+This is the meta-post. The post about how to build your own blog. I will use [Hugo](https://gohugo.io/) and a Linux machine.
 
-# Prerequisites
-
+## Prerequisites
 We need:
 - Git
 - Hugo
-## Install git
-Verify if `git` is installed:
+
+### Install git
+Verify if `git` is installed. 
 ~~~
 git --version
 ~~~
 
 If the command is not found, [install it](https://git-scm.com/install/linux).
 
-I am using Debian, so I'll do:
-```
+I am using Debian, so I'll run:
+~~~
 apt-get install git
 add-apt-repository ppa:git-core/ppa
 apt update; apt install git
-```
+~~~
 
-## Install Hugo
-Verify if it is installed:
+### Install Hugo
+Verify if `Hugo` is installed. I am using `v0.164`.
 ~~~
 hugo version
 ~~~
-I am using v0.164
 
 If the command is not found, [install it](https://gohugo.io/installation/linux/).
 
-I am using Debian, so I'll download [this file](https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-amd64.deb) and do:
+I am using Debian, so I'll download [this file](https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_0.164.0_linux-amd64.deb) and run:
 ~~~
 sudo dpkg -i ~/Downloads/hugo_0.164.0_linux-amd64.deb
 ~~~
 
-# Create a GitHub repository
+## Create a GitHub repository
 This post is not just about creating a local blog, but also hosting it and having it published for everyone to see. For that, we will be using GitHub Pages.
 
 If you don't already have a [GitHub](https://github.com/) account, create it. 
@@ -91,6 +85,7 @@ Now run the server and click on the URL from the command output
 hugo server
 ~~~
 We will need the deployment script for the GitHub Action. [\[1\]][1]
+
 Create a workflow file
 ~~~
 mkdir .github/workflows
