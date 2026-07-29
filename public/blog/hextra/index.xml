@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content &gt; style. – Posts</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Posts on Content &gt; style.</description>
+    <title>Content &gt; style. – Hextra</title>
+    <link>http://localhost:1313/blog/hextra/</link>
+    <description>Recent content in Hextra on Content &gt; style.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jul 2026 22:33:44 +0200</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/blog/hextra/index.xml" rel="self" type="application/rss+xml" />
     
     
       
