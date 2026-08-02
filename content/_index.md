@@ -14,3 +14,4 @@ Some of my interests are:
 - Movies and digital media.
 - Reading.
 
+If you want to get in touch, send an email to mika@blueware.xyz.
