@@ -4,8 +4,6 @@ menu = "main"
 weight = 1
 +++
 
-# About me
-
 Curious about everything and anything. 
 
 Some of my interests are:
@@ -14,4 +12,4 @@ Some of my interests are:
 - Movies and digital media.
 - Reading.
 
-If you want to get in touch, send an email to mika@blueware.xyz.
+If you want to get in touch, send an email to blog@blueware.xyz.
