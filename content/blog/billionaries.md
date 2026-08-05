@@ -3,6 +3,7 @@ date = '2026-07-30T11:42:25+02:00'
 title = 'Should billionaries be illegal?'
 tags = ["politics", "billionaries", "democracy",]
 description = "Limitarianism is a political position built around the belief that there should be a maximum amount of wealth any one person is permitted to possess. Not because everyone must be perfectly equal nor because becoming successful is inherently immoral, but because at some point, money stops purchasing additional comfort and starts purchasing power over everyone else."
+draft = "true"
 +++
 
 Limitarianism is a political position built around the belief that there should be a maximum amount of wealth any one person is permitted to possess. Not because everyone must be perfectly equal nor because becoming successful is inherently immoral, but because at some point, money stops purchasing additional comfort and starts purchasing power over everyone else. 
